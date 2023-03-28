@@ -1,0 +1,12 @@
+@use "variables";
+// button
+%buttonMain{
+    border: 2px solid $colorSecondary;
+ }
+%buttonSecondary{
+    border: 2px solid $colorMain;
+ }
+ %buttonAccent{
+    border: 2px solid $colorAccent;
+ }
+ 
