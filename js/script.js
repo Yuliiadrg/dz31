@@ -18,6 +18,14 @@ $(document).ready (function () {
 }) ;
 $(document).ready (function () {
     $('.partners-slider').slick({
+        speed: 2000,
+        autoplay: true,
+		autoplaySpeed: 0,
+		cssEase: 'linear',
+        infinite: true,
+        swipeToSlide: true,
+        focusOnSelect: true,
+
         centerMode: true,
         loop: true,
         slidesToShow: 4,
@@ -25,3 +33,4 @@ $(document).ready (function () {
         variableWidth: true,
     });
 });
+    
